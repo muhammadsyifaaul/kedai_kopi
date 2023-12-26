@@ -2,7 +2,13 @@
   --primary: #b6895b;
   --bg: #010101;
 }
-
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c40e58;
+  border-radius: 12px;
+}
 * {
   margin: 0;
   padding: 0;
